@@ -127,7 +127,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="progress-one">
 								<h4 class="progress-tittle">Java Script</h4>
 								<div class="progress">
-									<div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+									<div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
 								</div>
 							</div>
 						</div>
@@ -457,8 +457,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			method:"post",
 			success:function (response){
 				alert("Form submitted successfully")
-				window.location.reload()
-				//window.location.href="https://google.com"
+				document.getElementById("submit-form").reset();
 			},
 			error:function (err){
 				alert("Something Error")
